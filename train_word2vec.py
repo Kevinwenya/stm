@@ -5,6 +5,9 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 import corpus
 from gensim import models, corpora
 
+'''
+Using gensim(https://radimrehurek.com/gensim/) to train word2vec model
+'''
 raw_doc_filename = r'sample_weibo.txt'
 stopword_filename = r'stopwords.txt'
 
